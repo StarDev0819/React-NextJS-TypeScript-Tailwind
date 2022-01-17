@@ -1,3 +1,12 @@
-# Awesome Links - part-3
+# React/Next.js/TypeSript/Tailwind Mobile Pages
 
-This branch contains the final code for [this article](https://prisma.io/blog/fullstack-nextjs-graphql-prisma-2-fwpc6ds155), and will be the starting point for the 3rd part of the course (still being written)
+There are Welcome, Login, Page One and Page Two pages, which have Tailwind CSS for their style sheets.
+I have used mock data for this project and this mock data is stored in /mock-data/data.js file.
+
+# Packages
+
+React
+Next.js
+TypeScript
+Tailwind
+Redux
