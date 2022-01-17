@@ -17,6 +17,7 @@ export default function ActivityBox({ data }) {
                     <h5 className="text-[13px] text-normal text-gray-500">{ Difference_In_Days === "0" ? "Today" : Difference_In_Days === "1" ? `${Difference_In_Days} day ago` : `${Difference_In_Days} days ago` }</h5>
                 </div>
             </div>
+            {/* End of Activity Box */}
         </>
     );
 }

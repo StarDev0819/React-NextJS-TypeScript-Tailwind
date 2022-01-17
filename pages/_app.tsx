@@ -7,7 +7,6 @@ import { Provider } from "react-redux";
 import { PersistGate } from 'redux-persist/integration/react';
 
 import { wrapper } from "../store/index.js";
-import "../styles/style.scss";
 
 const WrappedApp = ({ Component, pageProps }) => {
   const store = useStore();

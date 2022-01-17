@@ -4,7 +4,7 @@ import React from 'react';
 
 import { ChevronDownIcon } from '@heroicons/react/solid';
 
-function Card ( props ) {
+export default function Card ( props ) {
     const { title, expanded = false, adClass='' } = props;
 
     function preventUrl ( e ) {
@@ -35,5 +35,3 @@ function Card ( props ) {
         </SlideToggle >
     )
 }
-
-export default React.memo( Card );

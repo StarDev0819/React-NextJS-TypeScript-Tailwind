@@ -1,12 +1,17 @@
 import React from "react";
-import Header from "~/components/features/Header";
+import Head from 'next/head';
 
 const Layout = ({ children }) => {
   return (
-    <div className="relative flex flex-col flex-auto min-w-0 overflow-visible md:min-h-screen ">
-      <Header />
-      {children}
-    </div>
+    <React.Fragment>
+      <Head>
+        <title>React Tailwind</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="relative flex flex-col flex-auto min-w-0 overflow-visible md:min-h-screen ">
+        {children}
+      </div>
+    </React.Fragment>
   );
 };
 

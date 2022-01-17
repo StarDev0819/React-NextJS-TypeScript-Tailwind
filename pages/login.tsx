@@ -1,7 +1,9 @@
 import React from 'react';
-import SearchBox from '~/components/features/SearchBox';
 
-const Login = () => {
+// Import Custom Components
+import ALink from '~/components/features/ALink';
+
+export default function Login () {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
@@ -10,6 +12,7 @@ const Login = () => {
 
         console.log(email, password);
     };
+
     return (
         <div className='h-screen flex bg-gray-bg1'>
             <div className='w-full max-w-md m-auto bg-white rounded-lg border border-white shadow-default py-10 px-16'>
@@ -37,19 +40,15 @@ const Login = () => {
                         />
                     </div>
 
-                    <SearchBox />
-
                     <div className='flex justify-center items-center mt-6'>
-                        <button
-                            className={`bg-primary-900 py-2 px-4 text-sm text-white rounded border border-green focus:outline-none focus:border-green-dark`}
+                        <ALink href="/page-one"
+                            className={`bg-blue-100 py-2 px-4 text-sm text-white rounded border border-green focus:outline-none focus:border-green-dark`}
                         >
                             Login
-                        </button>
+                        </ALink>
                     </div>
                 </form>
             </div>
         </div>
     );
-};
-
-export default Login;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Accordion(props) {
+export default function Accordion(props) {
     function onHandleClick(e) {
         if (e.target.classList.contains("toggle-button") || e.target.querySelector(".toggle-button")) {
             if (e.target.classList.contains("collapsed") || (e.target.querySelector(".toggle-button") && e.target.querySelector(".toggle-button").classList.contains("collapsed")) || e.target.classList.contains("collapsing") || (e.target.querySelector(".toggle-button") && e.target.querySelector(".toggle-button").classList.contains("collapsing"))) {
@@ -21,5 +21,3 @@ function Accordion(props) {
         </div>
     )
 }
-
-export default React.memo(Accordion);

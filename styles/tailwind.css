@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.header {
+    border-bottom: 1px solid #DFDFE0;
+}
+
 .nav-underline > li.active {
     border-color: #000;
     color: #000;
+}
+
+.search-box-wrap {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.search-box-wrap .search-box {
+    max-width: 269px;
 }

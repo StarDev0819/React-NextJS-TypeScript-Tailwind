@@ -3,7 +3,7 @@ import ALink from "./ALink";
 export default function InfoBox({ data }) {
     return (
         <>
-            <ALink href="/">
+            <ALink href="/page-two">
                 <div className="flex overflow-hidden h-auto lg:h-32 items-center mb-4">
                     {data.avatar}
 

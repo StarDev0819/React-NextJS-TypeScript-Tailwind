@@ -1,13 +1,12 @@
 import React from 'react';
-import Image from 'next/image';
 import ALink from '~/components/features/ALink';
 import CustomSelectBox from '~/components/features/CustomSelectBox';
 
 const Header = () => {
   return (
-    <header className="bg-white text-neutral-500 z-20 md:z-30 h-header sticky top-0 px-3.5 py-6 bg-stone-100 border-b-2">
+    <header className="container bg-gray text-neutral-500 z-20 md:z-30 h-header sticky top-0 py-3">
       <div className="flex justify-between items-center">
-        <div className="flex items-center mr-auto">
+        <div className="flex items-center mr-4">
           <ALink href="/" className="mr-2 pr-2">
             <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.0643 4.58334L4.64764 11L11.0643 17.4167" stroke="#6F6E73" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -22,9 +21,9 @@ const Header = () => {
           </ALink>
         </div>
 
-        <CustomSelectBox adClass="header-selectbox flex-1 mr-3 ml-4" />
+        <CustomSelectBox adClass="header-selectbox flex-1" />
 
-        <div className="user-box flex items-center ml-auto">
+        <div className="user-box flex items-center ml-3">
           <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.762 5.41993L13.1739 5.41668C9.5512 5.40801 6.40629 8.35143 6.38137 11.9167V16.0225C6.38137 16.8783 6.27304 17.7136 5.80612 18.4253L5.4952 18.8998C5.02179 19.6192 5.53095 20.5833 6.38137 20.5833H21.5805C22.431 20.5833 22.939 19.6192 22.4667 18.8998L22.1558 18.4253C21.69 17.7136 21.5805 16.8773 21.5805 16.0214V11.9178C21.5372 8.35143 18.3847 5.42859 14.762 5.41993Z" fill="#BEBEC2" />
             <path d="M17.231 20.5833C17.231 21.4453 16.8885 22.2719 16.2791 22.8814C15.6696 23.4909 14.8429 23.8333 13.981 23.8333C13.119 23.8333 12.2924 23.4909 11.6829 22.8814C11.0734 22.2719 10.731 21.4453 10.731 20.5833" fill="#6F6E73" />

@@ -18,7 +18,7 @@ module.exports = {
       'md': '0.375rem',
       'lg': '0.5rem',
       'full': '9999px',
-      'large': '12px',
+      'large': '10px'
     },
     fontSize: {
       sm: ['.875rem', '1.1'],
@@ -30,7 +30,8 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '14px'
+        DEFAULT: '16px',
+        'lg': '21px'
       }
     },
 
@@ -46,7 +47,8 @@ module.exports = {
         accent: {
           100: '#B072FF',
           200: '#885FFF',
-          300: '#3BD0AC'
+          300: '#3BD0AC',
+          400: '#E5D0FF'
         },
         text: {
           100: '#33373B',
@@ -56,7 +58,8 @@ module.exports = {
           500: '#BEBEC2',
           600: '#DFDFE0',
           700: '#F5F5F5'
-        }
+        },
+        gray: '#f5f5f5'
       },
 
       fontFamily: {
