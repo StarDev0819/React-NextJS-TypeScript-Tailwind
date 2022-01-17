@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-underline > li.active {
+    border-color: #000;
+    color: #000;
+}
