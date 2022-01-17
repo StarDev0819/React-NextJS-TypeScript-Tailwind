@@ -10,3 +10,11 @@ Next.js
 TypeScript
 Tailwind
 Redux
+
+# How to Run
+
+It is so easy to run this project.
+Please open Powershell or VS Code terminal and execute this command.
+npm install
+npm run dev
+Then you can see that this project is running on localhost:3000.
